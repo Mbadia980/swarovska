@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+        <title>Swarovska</title>
+    <style>
+              body {
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            background:#4b0082, #9370db;
+            color: white;
+        }
+        .menu {
+            width: 250px;
+            background-color: rgba(75, 0, 130, 0.9);
+            padding: 20px;
+            height: 100vh;
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .menu a {
+            color: #add8e6;
+            text-decoration: none;
+            display: block;
+            margin: 15px 0;
+            font-size: 18px;
+            font-style: italic;
+            transition: color 0.3s;
+        }
+        .menu :1 {
+            color: #ffffff;
+        }
+        .menu img {
+            width: 80%;
+            margin-bottom: 20px;
+        }
+        .inici {
+            margin-left: 270px;
+            padding: 40px;
+            
+            background-color: #e6e6fa;
+            color: black;
+        }
+        .pagina2 {
+            min-height: 100vh;
+            padding: 50px;
+            
+        }
+        #inici { background-color: #d8bfd8; }
+        #colleccio { background-color: #dda0dd; }
+        #rebaixes { background-color: #ba55d3; }
+        h1, p {
+            text-align: center;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="pagina2">
+        <a href="index.html"><img src="img/logo_swarovski.png" alt="Swarovski"></a>
+        <a href="colleccio.html">Col·lecció</a>
+        <a href="rebaixes.html">Rebaixes</a>
+        <a href="anells.html">Anells</a>
+        <a href="collarets.html">Collarets</a>
+        <a href="anells.html">Anells</a>
+        <a href="collarets.html">Collarets</a>
+        <a href="arracades.html">Arracades</a>
+        <a href="bracalets.html">Braçalets</a>
+    </div>
+
+    <div class="inici">
+        <div id="inici" class="section">
+            <h1>Benvinguts a Swarovski</h1>
+            
+            <img src="img/swarovski_home.jpg" width="100%" style="border-radius: 10px;">
+        </div>
+    </div>
+</body>
+</html>
